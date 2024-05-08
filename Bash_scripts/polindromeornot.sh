@@ -7,7 +7,7 @@ while [ $num -gt 0 ]
 do
     let r=$num%10
     let num=$num/10
-    let x=($x*10)+r
+    let x=($x*10)+$r
 done
 if [ $x -eq $newnum ]
 then
